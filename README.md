@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Lawctopus Online Academy - Course Landing Page
 
-## Getting Started
+This repository contains a premium, modern, and highly conversion-optimized landing page designed for the Lawctopus practical legal training course. The page is built using Next.js, React, Tailwind CSS, and Framer Motion, adhering to strict design guidelines, performance principles, and accessibility standards.
 
-First, run the development server:
+## Project Overview
+
+The objective of this project is to present a professional landing page that addresses common user objections, details the course syllabus, introduces the expert faculty, showcases social proof, and guides prospects toward enrollment. It features a sticky navigation tracking hook, interactive accordions, and custom carousels.
+
+## Tech Stack
+
+* **Framework**: Next.js 16.2.9 (App Router, Turbopack)
+* **Library**: React 19.2.4
+* **Styling**: Tailwind CSS 4.0
+* **Animations**: Framer Motion 12.4.2
+* **Icons**: Lucide React 1.21.0
+* **Fonts**: Geist Sans & Geist Mono (Optimized via next/font)
+
+## Features
+
+* **Sticky Responsive Navbar**: Features scroll-based height shrinking (72px to 64px), opacity changes, and box-shadow triggers. Contains active-section visual highlighting managed through an IntersectionObserver.
+* **Hero Banner**: Includes optimized Next.js Image rendering, floating statistics cards, and a subtle glowing backdrop.
+* **Trusted Grid**: Staggered cards displaying value props (Certificate of Completion, Practical Assignments, and Student metrics).
+* **Curriculum Accordion**: Accessible module syllabus breakdown displaying expanding lists, topics checklist, and custom height animations.
+* **Faculty bios**: Clean expert showcases displaying designation, experience badge, and LinkedIn contact buttons.
+* **Testimonials Carousel**: Custom-built autoplay sliding card reel that pauses on hover and allows manual prev/next button pagination.
+* **Social Proof**: Detailed statistic cards utilizing spring zoom scales and slight icon rotation upon hover events.
+* **Pricing Card**: Highlights inclusions, launch pricing, discount percentage, and trust badges (SSL checkout, verified certificate, and lifetime updates).
+* **Controlled FAQ**: Accordion component displaying common inquiries. Configured to permit only one open question at a time to reduce scroll clutter.
+
+## Project Structure
+
+```text
+├── app/
+│   ├── globals.css        # Global CSS, Tailwind base layers, and utility classes
+│   ├── layout.js          # Root layout defining document structure and SEO metadata
+│   └── page.js            # Entry page rendering the sections in sequence
+├── components/
+│   ├── about/             # About Course & Enrollment sections
+│   ├── benefits/          # Learning outcomes components
+│   ├── common/            # Reusable UI elements (Badge, Button, Card, Container, SectionTitle)
+│   ├── cta/               # Final conversion banner
+│   ├── curriculum/        # Syllabus items and module accordions
+│   ├── faculty/           # Faculty bios grid
+│   ├── hero/              # Hero header and stats
+│   ├── layout/            # Navbar header and Footer footer
+│   ├── pricing/           # Pricing details and inclusions
+│   ├── testimonials/      # Reviews, custom carousel, and social proof statistics
+│   └── trusted/           # Trusted grid elements
+├── data/
+│   ├── benefits.js        # Benefits configuration
+│   ├── curriculum.js      # Syllabus dataset
+│   ├── faculty.js         # Expert profiles
+│   ├── faq.js             # Detailed FAQ inquiries
+│   └── testimonials.js    # Student reviews
+├── public/
+│   └── images/            # Static visual assets
+├── utils/
+│   └── cn.js              # Tailwind class merging utility
+├── next.config.mjs        # Next.js configurations
+└── tailwind.config.mjs    # Tailwind directives
+```
+
+## Installation
+
+Ensure you have Node.js version 18 or above installed on your system. Clone the repository and install the project dependencies:
+
+```bash
+npm install
+```
+
+## Running Locally
+
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your web browser to view the active landing page.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To verify production builds:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The application is fully optimized for deployment on the Vercel Platform. Since it relies on client-side routing, static prerendering, and optimized image processing, it requires zero backend API resources or environmental variables.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed for Lawctopus Online Academy.

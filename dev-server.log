@@ -1,0 +1,14 @@
+
+> lawctopus-landing@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.10.119:3000
+✓ Ready in 3.4s
+Creating turbopack project { dir: 'C:\\STUDY\\Internship\\lawctopus-landing', testMode: true }
+
+○ Compiling / ...
+ GET / 200 in 5.5s (next.js: 5.3s, application-code: 202ms)
+ GET / 200 in 253ms (next.js: 86ms, application-code: 167ms)
+[?25h
