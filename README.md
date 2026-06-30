@@ -14,7 +14,7 @@ The objective of this project is to present a professional landing page that add
 * **Animations**: Framer Motion 12.4.2
 * **Icons**: Lucide React 1.21.0
 * **Fonts**: Geist Sans & Geist Mono (Optimized via next/font)
-
+...
 ## Features
 
 * **Sticky Responsive Navbar**: Features scroll-based height shrinking (72px to 64px), opacity changes, and box-shadow triggers. Contains active-section visual highlighting managed through an IntersectionObserver.
