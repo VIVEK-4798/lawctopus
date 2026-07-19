@@ -29,8 +29,7 @@ The objective of this project is to present a professional landing page that add
 
 ## Project Structure
 ..........
-...
-.
+
 
 ```text
 ├── app/
