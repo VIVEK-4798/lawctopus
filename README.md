@@ -28,11 +28,6 @@ The objective of this project is to present a professional landing page that add
 * **Controlled FAQ**: Accordion component displaying common inquiries. Configured to permit only one open question at a time to reduce scroll clutter.
 
 ## Project Structure
-..........
-....
-
-....
-
 ```text
 ├── app/
 │   ├── globals.css        # Global CSS, Tailwind base layers, and utility classes
