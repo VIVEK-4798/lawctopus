@@ -24,8 +24,8 @@ The objective of this project is to present a professional landing page that add
 * **Faculty bios**: Clean expert showcases displaying designation, experience badge, and LinkedIn contact buttons.
 * **Testimonials Carousel**: Custom-built autoplay sliding card reel that pauses on hover and allows manual prev/next button pagination.
 * **Social Proof**: Detailed statistic cards utilizing spring zoom scales and slight icon rotation upon hover events.
-* **Pricing Card**: Highlights inclusions, launch pricing, discount percentage, and trust badges (SSL checkout, verified certificate, and lifetime updates).
-* **Controlled FAQ**: Accordion component displaying common inquiries. Configured to permit only one open question at a time to reduce scroll clutter.
+<!-- * **Pricing Card**: Highlights inclusions, launch pricing, discount percentage, and trust badges (SSL checkout, verified certificate, and lifetime updates).
+* **Controlled FAQ**: Accordion component displaying common inquiries. Configured to permit only one open question at a time to reduce scroll clutter. -->
 
 ## Project Structure
 ```text
