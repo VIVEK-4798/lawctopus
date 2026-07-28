@@ -15,7 +15,7 @@ The objective of this project is to present a professional landing page that add
 * **Icons**: Lucide React 1.21.0
 * **Fonts**: Geist Sans & Geist Mono (Optimized via next/font)
 
-## Features
+<!-- ## Features
 
 * **Sticky Responsive Navbar**: Features scroll-based height shrinking (72px to 64px), opacity changes, and box-shadow triggers. Contains active-section visual highlighting managed through an IntersectionObserver.
 * **Hero Banner**: Includes optimized Next.js Image rendering, floating statistics cards, and a subtle glowing backdrop.
@@ -25,7 +25,7 @@ The objective of this project is to present a professional landing page that add
 * **Testimonials Carousel**: Custom-built autoplay sliding card reel that pauses on hover and allows manual prev/next button pagination.
 * **Social Proof**: Detailed statistic cards utilizing spring zoom scales and slight icon rotation upon hover events.
 * **Pricing Card**: Highlights inclusions, launch pricing, discount percentage, and trust badges (SSL checkout, verified certificate, and lifetime updates).
-* **Controlled FAQ**: Accordion component displaying common inquiries. Configured to permit only one open question at a time to reduce scroll clutter.
+* **Controlled FAQ**: Accordion component displaying common inquiries. Configured to permit only one open question at a time to reduce scroll clutter. -->
 
 ## Project Structure
 ```text
